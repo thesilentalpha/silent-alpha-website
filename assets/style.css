@@ -218,7 +218,7 @@ main {
   opacity: 1;
 }
 
-.card.rekha { --accent: var(--coral); --accent-glow: rgba(242, 84, 45, 0.25); }
+.card.app-a { --accent: var(--coral); --accent-glow: rgba(242, 84, 45, 0.25); }
 .card.silentalpha { --accent: var(--violet); --accent-glow: rgba(108, 99, 255, 0.3); }
 
 .card-top {
