@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — SilentAlpha</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-style=%22italic%22 font-weight=%22800%22 fill=%22%23ffd76a%22>α</text></svg>" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div id="stars" aria-hidden="true"></div>
+
+  <header class="site">
+    <div class="wrap nav">
+      <a href="index.html" class="brand"><span class="alpha">α</span> SilentAlpha</a>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>Get in touch</h1>
+      <p>Questions, feedback, or just curious about launch timing — we'd like to hear from you.</p>
+    </div>
+
+    <div class="content-card">
+      <h2>Email</h2>
+      <p>The fastest way to reach us. This opens your own email app, addressed and ready to send.</p>
+      <div class="contact-actions">
+        <a class="btn primary" href="mailto:hello@thesilentalpha.com">✉️ hello@thesilentalpha.com</a>
+        <a class="btn ghost" href="index.html">← Back home</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap" style="display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; width:100%;">
+      <span>© <span id="year"></span> SilentAlpha</span>
+      <div style="display:flex; gap:18px;">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/stars.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
