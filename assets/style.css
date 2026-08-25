@@ -238,7 +238,18 @@ main {
 .card h2 {
   margin: 0;
   font-size: 1.25rem;
-  display: none;
+  filter: blur(7px);
+  opacity: 0.75;
+  user-select: none;
+  transition: filter 0.4s ease, opacity 0.4s ease;
+}
+
+/* A little reveal-on-hover/tap makes the blur read as a deliberate
+   "still under wraps" tease rather than a rendering glitch. */
+.card:hover h2,
+.card:focus-within h2 {
+  filter: blur(3px);
+  opacity: 0.9;
 }
 
 .card .kicker {
