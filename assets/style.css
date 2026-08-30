@@ -98,7 +98,12 @@ header.site {
 
 nav.links {
   display: flex;
+  /* The app sections push this past three links, which is more than fits on
+     a phone in one line. Without wrapping they run off the right edge. */
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 22px;
+  row-gap: 8px;
 }
 
 nav.links a {

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data Safety — Rekha Learning</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="../favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png" />
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <div id="stars" aria-hidden="true"></div>
+
+  <header class="site">
+    <div class="wrap nav">
+      <a href="../index.html" class="brand"><span class="alpha">&#945;</span> The Silent Alpha</a>
+      <nav class="links">
+        <a href="../index.html">Home</a>
+        <a href="index.html">Rekha</a>
+        <a href="faq.html">FAQ</a>
+        <a href="help.html">Help</a>
+        <a href="privacy.html" class="active">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>Data safety summary</h1>
+      <p>Last updated: 30 August 2026 &middot; Rekha Learning &middot; The detail is in the <a href="privacy.html">Privacy Policy</a></p>
+    </div>
+
+    <div class="content-card">
+      <h2>At a glance</h2>
+      <ul>
+        <li><strong>Is any data collected?</strong> Only if you create an account. Guest play sends nothing.</li>
+        <li><strong>Is data shared with third parties?</strong> No.</li>
+        <li><strong>Is data sold?</strong> No.</li>
+        <li><strong>Advertising or tracking?</strong> None in the app.</li>
+        <li><strong>Encrypted in transit?</strong> Yes, over HTTPS.</li>
+        <li><strong>Can you request deletion?</strong> Yes. Close it yourself in the app, or ask us to erase it &mdash; see <a href="delete-account.html">Closing or erasing your account</a>.</li>
+      </ul>
+
+      <h2>Collected with an account</h2>
+      <ul>
+        <li><strong>Name and email address</strong> (grown-up) &mdash; to create and recover the account. Required.</li>
+        <li><strong>Phone number</strong> (grown-up) &mdash; optional; used only as an alternative sign-in.</li>
+        <li><strong>Username and password</strong> &mdash; to sign in.</li>
+        <li><strong>Child's name and age</strong> &mdash; to greet them, tell profiles apart, and suggest a starting chapter. A nickname is enough.</li>
+        <li><strong>App activity</strong> &mdash; lessons finished, stars, skill estimates, and per-activity records including tracing measurements, used to adapt difficulty and build the parent's report.</li>
+        <li><strong>Avatar and handedness</strong> &mdash; preferences that shape the screen.</li>
+      </ul>
+
+      <h2>Not collected</h2>
+      <ul>
+        <li>Location of any kind &mdash; the app has no location permission.</li>
+        <li>Contacts, calendar, photos, files, or SMS.</li>
+        <li>Audio recordings. The microphone is used only inside a speaking activity, and nothing is stored or transmitted.</li>
+        <li>Advertising identifiers, or any identifier used to track a user across other apps and websites.</li>
+        <li>Payment information &mdash; there are no purchases in the app.</li>
+      </ul>
+
+      <h2>Device permissions and why</h2>
+      <ul>
+        <li><strong>Internet</strong> &mdash; to sync progress when signed in. The app works without it.</li>
+        <li><strong>Microphone</strong> &mdash; requested only the first time a child taps to speak in a speaking activity, never at launch. Refusing it skips that one activity type and nothing else.</li>
+        <li><strong>Notifications</strong> &mdash; only if practice reminders are switched on by a grown-up. Reminders are scheduled on the device; none pass through a server.</li>
+      </ul>
+
+      <h2>Kept on the device only</h2>
+      <p>Language, daily goal, screen-time limit and today's usage, and the reminder time. These never reach our servers.</p>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap" style="display:flex; flex-wrap:wrap; gap:12px; justify-content:space-between; width:100%;">
+      <span>&copy; <span id="year"></span> The Silent Alpha</span>
+      <div style="display:flex; gap:18px;">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="delete-account.html">Delete account</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/stars.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
